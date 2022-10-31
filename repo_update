@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm mahrad*
+rm march*
 
 echo "repo-add"
-repo-add -n -R mahrad.db.tar.gz *.pkg.tar.zst
+repo-add -n -R march.db.tar.gz *.pkg.tar.zst
 
 echo "####################################"
 echo "Repo Updated!!"
